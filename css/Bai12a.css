@@ -1,0 +1,127 @@
+*{
+	font-size: 12px;
+	font-family: arial;
+
+}
+#header{
+	
+
+}
+#content{
+	
+}
+#tab-bar{
+	height: 50px;
+}
+.col-lg-3{
+	background-color: #01837B;
+}
+.col-lg-2{
+	background-color: #01837B;
+}
+h3{
+	color:  #01a19a;
+}
+#dautroc{
+	max-width: 100%;
+	text-align: center;
+}
+#anhto{
+	/*text-align: center;*/
+	
+}
+#tranh{
+	text-align: center;
+}
+.tieude{
+	text-align: center;
+}
+#sao{
+	float: right;
+}
+.col-6{
+	
+}
+#containerb{
+	
+}
+.logo{
+	max-width: 100%;
+}
+
+#input{
+	float: left;
+	line-height: 70px;	
+
+}
+#input-text{
+	height: 36px;
+	width: 180px;
+	border: 0px;
+	background-color: #016a62;	
+}
+#tim{
+	float: left;
+	line-height: 70px;
+}
+#tim-text{
+	padding-top: 20px;
+	color: #00cac0;
+}
+#user{
+	float: left;
+	line-height: 70px;
+}
+#user-text{
+	padding-top: 20px;
+	color: #00cac0;
+}
+#phone{
+	float: left;
+	line-height: 70px;
+}
+#search-icon{
+	line-height: 70px;
+}
+#phone-text{
+	padding-top: 20px;
+	color: #00cac0;
+}
+#menu{
+	background-color: #01a9a1;
+}
+.col-md-8{
+	padding-top: 50px;
+}
+.col-md-3{
+	text-align: center;
+	padding-top: 50px;
+}
+.tieude-text{
+	border-bottom: 1px dotted gray;
+	width: 90%;
+}
+.tag-tieude{
+	background-image: url(../Ex12HW/image/frame.png);
+	max-width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+}
+.baiviet{
+	margin-top: 30px;
+	border: 1px solid gray;
+}
+.anhtreo{
+	margin-top: 20px;
+
+}
+#container{
+	
+}
+.footer{
+	
+}
+.clear{
+	clear: both;
+}

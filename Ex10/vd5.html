@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd5</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+		div{
+			width: 200px;
+			height: 200px;
+			background-color: green;
+			position: relative;
+			left: 0px;
+		}
+
+	</style>
+</head>
+<body>
+	<div></div>
+	<button>Click</button>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('button').click(function(){
+				$('div').animate({
+					left: '500px',
+					top: '500px'
+
+				},1000,function(){
+					$('div').css('background-color','red');
+				}).slideToggle(2000).slideToggle(2000).slideToggle(2000)
+			})
+		})
+	</script>
+</body>
+</html>

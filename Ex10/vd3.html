@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd3</title>
+	<style type="text/css">
+		p{
+
+		}
+		div{
+			width: 200px;
+			height: 400px;
+			display: none;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet.</p>
+	<div>
+		
+	</div>
+	<button id="show">Show</button>
+	<button id="hide">Hide</button>
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#show').click(function(){
+				$('p').show(1000,function(){
+					// window.location.href="https://mp3.zing.vn/bai-hat/Perfect-Ed-Sheeran/ZW79BC0D.html";
+					$('div').slideToggle();
+				});
+
+			})
+			$('#hide').click(function(){
+				$('p').hide(1000,function(){
+					// alert('hide');
+					$('div').slideToggle();
+				});
+
+			})
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd6</title>
+</head>
+<body>
+	<div data-name="Be Thanh" data-age="10" abc="Abcxyz">Click</div>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+
+		$('div').click(function(){
+			var abc= $(this).attr('abc');
+			var name = $(this).data('name');
+			alert(name);
+		})
+
+	})
+	</script>
+</body>
+</html>

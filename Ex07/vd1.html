@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd1</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			position: relative;
+			/*border-radius: 100px; */
+			background: orange;
+			animation-name: abcxyz; 
+			animation-duration: 5s; //chạy trong 5s
+			animation-iteration-count: infinite; //chạy vô hạn
+			animation-direction: reverse;
+
+		}
+		@keyframes abcxyz {
+			0% {
+				top: 0px;
+				left: 0px;
+			}
+			20% {
+				top: 0px;
+				left: 700px;
+
+			}
+			40% {
+				top: 700px;
+				left: 700px;
+				border-radius: 100px;
+				background:green;
+			}
+			60% {
+				top: 700px;
+				left: 0px;
+				background:red;
+			}
+			80%{
+				top: 700px;
+				left: 700px;
+			}
+			100% {
+				top: 0px;
+				left: 0px;
+				background:blue;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<marquee direction="up" loop="INFINITE" width="250px" height="300px">
+				<p>Lorem ipsum dolor sit amet.</p>
+				<p>Lorem ipsum dolor sit amet.</p>
+				<p>Lorem ipsum dolor sit amet.</p>
+				<p>Lorem ipsum dolor sit amet.</p>
+				<p>Lorem ipsum dolor sit amet.</p>
+
+	</marquee>
+</body>	
+</html>

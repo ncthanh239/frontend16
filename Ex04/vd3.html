@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	nav{
+		background-color: orange;
+		height: 40px;
+	}
+		ul{
+			padding-left: 0px;
+		}
+		.menu >li{
+			display: inline-block;
+			line-height: 40px;
+			float: left;
+			position: relative;
+		}
+		.menu li a {
+			text-decoration: none;
+			padding-right: 10px;
+			padding-left: 10px;
+			color: white;
+		}
+		.menu li:hover{
+			background-color: gray;
+		}
+		.sub>li>a {
+			text-decoration: none;
+			color: white;
+			padding-left: 10px;
+		}
+		.sub{
+			display: none;
+			width: 200px;
+			position: absolute;
+			list-style: none;
+		}
+		.menu li:hover{
+			background-color: gray;
+		}
+		.menu li:hover .sub{
+			background-color: gray;
+			display: block;
+		}
+		.sub>li:hover{
+			background-color: orange;
+		}
+		.sub>li{
+			position: relative;
+
+		}
+		.has-sub{
+			position: absolute;
+			left: 200px;
+			top: 0;
+			background: gray;
+		}
+		.sub>li:hover.has-sub{
+			display: block;
+			background-color: orange;
+		}
+		.has-sub li{
+			list-style: none;
+		}
+
+		.has-sub li:hover{
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul class="menu">
+			<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Course</a>
+				<ul class="sub">
+					<li>
+						<a href="#">PHP</a>
+						<ul class="has-sub">
+							<li><a href="#">PHP1</a></li>
+							<li><a href="#">PHP2</a></li>
+							<li><a href="#">PHP3</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Java</a>
+						
+					</li>
+					<li>
+						<a href="#">Font end</a>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">Contact</a></li>
+			
+		</ul>
+	</nav>
+</body>
+</html>

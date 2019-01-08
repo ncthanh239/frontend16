@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex1</title>
+	<link rel="stylesheet" type="text/css" href="Bai1.css">
+</head>
+<body>
+	<nav>
+	<table>
+		<tr>
+			<td>Họ và tên</td>
+			<td><input type="text" name="" placeholder="Nhập họ tên..." id="rong" onkeyup="checkrong(this)"></td>
+			<td><p id="errorrong"></p></td>
+		</tr>
+		<tr>
+			<td>Giới tính</td>
+			<td><input type="radio" name="1">Nam<input type="radio" name="1">Nữ</td>
+			
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="text" name="email" placeholder="Nhập email..." id="email" onkeyup="checkEmail()"></td>
+			<td><p id="erroremail"></p></td>
+		</tr>
+		<tr>
+			<td>Số điện thoại</td>
+			<td><input type="number" name="sdt" placeholder="Nhập số điện thoại..." id="sdt" onkeyup="checksdt()"></td>
+			<td><p id="errorsdt"></p></td>
+		</tr>
+		<tr>
+			<td>Mật khẩu</td>
+			<td><input type="" name="pass" id="pass" onkeyup="checkpass()"></td>
+			<td><p id="errorpass"></p></td>
+		</tr>
+		<tr>
+			<td>Xác nhận mật khẩu</td>
+			<td><input type="" name="cpass" id="cpass" onkeyup="checkcpassword()"></td>
+			<td><p id="errorcpass"></p></td>
+		</tr>
+		
+	</table>
+</nav>
+<div>
+	<button type="submit" id="sb" disabled="">Đăng kí</button>
+	<button>Xóa trắng</button>
+</div>
+	
+	<script type="text/javascript">
+		var flag= false;
+		var flag1 = false;
+	
+	function validateEmail(email) {
+   		 var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+   		 return re.test(String(email).toLowerCase());
+		}
+		function checkEmail(){
+			var email=document.getElementById('email').value;
+			if(validateEmail(email)){
+				document.getElementById('erroremail').innerHTML='';
+				flag=true;
+			}else{
+				document.getElementById('erroremail').innerHTML='Yêu cầu phải nhập đúng email';
+				flag=false;
+			}
+		}
+		function checkrong(a){
+			console.log(a.value);
+			if (a.value.length<8) {
+				document.getElementById('errorrong').innerHTML='Tên phải chứa ít nhất 8 kí tự';
+			}else{
+				document.getElementById('errorrong').innerHTML='';
+			}
+		}
+	function validatePhone(sdt) {
+   	 	var a = document.getElementById('sdt').value;
+    	var sdt = /^[0-9-+]+$/;
+    	if (sdt.test(a)) {
+        return true;
+   		 }
+   			 else {
+       	 		return false;
+   			}
+		}
+		function checksdt(){
+			var sdt = document.getElementById('sdt').value;
+			if(validatePhone(sdt)){
+				document.getElementById('errorsdt').innerHTML='';
+				flag=true;
+
+			}
+			else{
+				document.getElementById('errorsdt').innerHTML='Yêu cầu nhập số điện thoại';
+				flag=false;
+			}
+		}
+		function checkcpassword(){
+			var p=document.getElementById('pass').value;
+			var cp=document.getElementById('cpass').value;
+			if(p==cp){
+				document.getElementById('errorcpass').innerHTML='';
+			}else if(cp==''){
+				document.getElementById('errorcpass').innerHTML='Yêu cầu nhập mật khẩu';
+			}
+			else
+			{
+				document.getElementById('errorcpass').innerHTML='Yêu cầu xác nhận mật khẩu';
+			}
+		}
+		function checkpass(){
+			var p= document.getElementById('pass').value;
+			if(p==''){
+				document.getElementById('errorpass').innerHTML='Yêu cầu nhập mật khẩu';
+			}else{
+				document.getElementById('errorpass').innerHTML='';
+			}
+		}
+	</script>
+	</body>
+</html>

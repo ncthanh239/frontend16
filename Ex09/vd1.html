@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd1</title>
+</head>
+<body>
+	<input type="text" name="" id="input" onkeyup="check()">
+	<button onclick="add()" disabled="" id="add">Add</button>
+	<button onclick="checkall()" id="checkall">Check all</button>
+	<button onclick="uncheckall()" id="uncheckall">Uncheck all</button>
+	<button onclick="delAll()" id="dellall">Delete</button>
+	<table id="content">
+		
+	</table>
+	<script type="text/javascript">
+		var i=1;
+		function check(){
+			var input = document.getElementById('input');
+			if(input.value!=''){
+				document.getElementById('add').disabled = false;
+			}
+			else{
+				document.getElementById('add').disabled= true;
+			}
+		}
+		function add(){
+			var input = document.getElementById('input');
+			if(input.value==''){
+				alert('Không được để rỗng');
+				return;
+			}
+			var tr='<tr id="' + i + '"><td><input type="checkbox" class="check" value="' +i+ '"></td><td>'+ input.value + '</td><td><button>Show</button><button>Edit</button><button onclick="del(' + i + ')">Delete</button></td></tr>';
+			var content = document.getElementById('content');
+			content.innerHTML= tr+ content.innerHTML;
+			input.value='';
+			document.getElementById('add').disabled= true;
+			i++;
+		}
+		function del(a){
+			document.getElementById(a).remove();
+		}
+		function checkall(){
+			var check=document.getElementsByClassName('check');
+			for(var i=0; i<check.length;i++){
+				check[i].checked=true;
+			}
+
+		}
+		function uncheckall(){
+			var check=document.getElementsByClassName('check');
+			for(var i=0; i<check.length;i++){
+				check[i].checked=false;
+			}
+
+		}
+		function delAll(){
+			var check = document.getElementsByClassName('check');
+
+			for(var k= check.length-1;k>=0;k--){
+				if(check[k].checked==true){
+					document.getElementById(check[k].value).remove();
+				}
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+	background-color: gray;
+}
+#anh{
+	padding: 3px;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+#lightbox{
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(0,0,0,.7);
+}
+#lightbox #anhbig{
+	width: 600px;
+	height: 450px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -227px;
+	margin-left: -302px;
+	padding: 4px;
+	border: 1px solid black;
+	background: white;
+	position: relative;
+	z-index: 90;
+}
+#lightbox #close{
+	position: absolute;
+	top: 21%;
+	right: 30%;
+	color: white;
+	z-index: 95;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: red;
+	text-align: center;
+	line-height: 25px;
+}
+#text{
+	width: 602px;
+	height: 36px;
+	z-index: 91;
+	position: absolute;
+	color: red;
+	right: 30%;
+	top: 75%;
+	background-color: white;
+	text-align: center;
+	line-height: 36px;
+}

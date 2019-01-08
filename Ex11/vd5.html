@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd5</title>
+</head>
+<body>
+	<input type="text" name="" id="input">
+	<button id="add">Add</button>
+	<button id="update" style="display: none;">Update</button>
+	<button id="checkall">CheckAll</button>
+	<button id="check">Check</button>
+	<button id="del">DeleteAll</button>
+
+	<div id="content">
+		
+	</div>
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#add').click(function(){
+				var input = $('input').val();
+				var text = '<div><input class="check" type="checkbox">'+input+'<button>Edit</button><button class="del">Xóa</button></div>';
+				$('#content').prepend(text);
+				$('#input').val('');
+				
+			})
+		});
+		$('body').on('click','#checkall', function(){
+			$('input[type="checkbox"]').each(function(){
+				$(this).prop('checked', true);
+
+			})
+		});
+		$('body').on('click', '#del', function(){
+			$('input[type="checkbox"]').each(function(){
+				if($(this).is(':checked')){
+					$(this).parent().remove();
+				}
+
+			})
+		});
+
+	</script>
+</body>
+</html>

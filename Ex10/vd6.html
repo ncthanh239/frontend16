@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd6</title>
+</head>
+<body>
+	<div>
+		<ul>
+			<li>
+				<span id="span">A</span>
+				<span>B</span>
+			</li>
+
+			<li>
+				<b>Abcxyz</b>
+			</li>
+		</ul>
+		<h3>Zyxcba</h3>
+	</div>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+
+		$('#span').click(function(){
+			$(this).parents('ul').next().css('color', 'red');
+		})
+
+	})
+	</script>
+</body>
+</html>

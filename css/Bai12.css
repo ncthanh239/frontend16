@@ -1,0 +1,41 @@
+*{
+	font-family: arial;
+	font-size: 12px;
+}
+.navbar{
+	background-color: #01837B;
+	height: 60px;
+
+}
+.navbar a img{
+	max-width: 100%;
+	height: 40px;
+}
+#logo{
+	max-width: 100%;
+	height: 50px;
+}
+.navbar-brand{
+	
+}
+
+#search{
+	max-width: 100%;
+	height: 35px;
+	
+}
+#input{
+	height: 35px;
+	width: 300px;
+}
+.navbar>a>input{
+	line-height: 60px;
+}
+#phone{
+	line-height: 60px;
+}
+@media (max-width: 977px){
+	.navbar{
+		float: none;
+	}
+}

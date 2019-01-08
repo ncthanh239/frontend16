@@ -1,0 +1,27 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+nav{
+	background-image: url(Quotefancy-2164380-3840x2160.jpg);
+	width: 500px;
+	height: 300px;
+	border-radius: 20px;
+}
+table tr td{
+	padding: 10px;
+
+}
+div{
+	display: table;
+}
+button
+{
+	float: left;
+	margin: 50px;
+	background-color: red;
+	color: white;
+}
+table tr td p{
+	color: red;
+}

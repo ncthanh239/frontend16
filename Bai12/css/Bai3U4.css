@@ -1,0 +1,210 @@
+*
+{
+	margin: auto;
+	padding: auto;
+	border: 1px solid black;
+}
+#logo
+{
+	width: 100%;
+	height: 50px;
+	background-color: #a91717;
+	border-bottom: 1px solid black;
+
+}
+#menu
+{	
+	width: 100%;
+	height: 30px;
+	background-color: #a91717
+}
+#ad
+{
+	width: 100%;
+	height: 120px;
+}
+#mid
+{
+	width: 60%;
+	height:3000px;
+}
+#bot
+{
+	width: 100%;
+	height: 100px;
+}
+#left
+{
+	width: 60%;
+	height:100%;
+	float:left;
+}
+#right
+{
+	width: 39%;
+	height:100%;
+	float:left;
+}
+#big
+{
+	width: 100%;
+	height:300px;
+}
+#small
+{
+	width: 100%;
+	height:350px;
+}
+#smaller
+{
+	width: 100%;
+	height: 200px;
+}
+#video
+{
+	width: 100%;
+	height: 250px;
+}
+#diemnhan
+{
+	width: 100%;
+	height:200px;
+}
+#quandiem
+{
+	width: 100%;
+	height: 150px;
+}
+#kinhte
+{
+	width: 100%;
+	height: 150px;
+}
+#thethao
+{
+	width: 100%;
+	height: 150px;
+}
+#xahoi
+{
+	width: 100%;
+	height: 150px;
+}
+#hoctienganh
+{
+	width: 100%;
+	height: 150px;
+}
+#hocvienbaotri
+{
+	width: 100%;
+	height: 100px;
+}
+#hinhanh
+{
+	width: 100%;
+	height: 250px;
+}
+#chuyenmuc
+{
+	width: 100%;
+	height: 1500px;
+}
+.rightsmall
+{
+	width: 100%;
+	height: 180px;
+}
+#docnhieu
+{
+	width: 100%;
+	height: 500px;
+}
+#network
+{
+	width: 100%;
+	height: 500px;
+}
+#mxh
+{
+	width: 100%;
+	height: 300px;
+}
+#dv
+{
+	width: 100%;
+	height: 200px;
+}
+#logo h1{
+	color: white;
+	margin-left: 100px;
+	margin-top: 13px;
+}
+#menu>ul{
+	padding-left: 0px;
+	list-style: none;
+	display: table;//canh giữa div ul trong div menu
+	/*margin: 0px auto;*///canh giữa div ul trong div menu
+	margin-top: 10px;
+}
+#menu>ul>li{
+	float: left;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+	border-right: 1px solid white;
+
+}
+#ad>img{
+	display: table;
+	line-height: 120px;
+}
+#ad>#qc{
+	width: 730px;
+	display: table;
+	text-align: right;
+}
+#maybay{
+	margin-right: 0px;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#maybay>img{
+	 width: 100%;
+	 height: 100%;
+}
+#po
+{
+	width: 48%;
+	height: 100%;
+	float: left;
+}
+.duong{
+	width: 100%;
+	height: 130px;
+}
+.duong>img{
+	width: 100%;
+	height: 100%;
+}
+.qc1{
+	text-align: center;
+}
+.dailoan{
+	width: 100%;
+	height: 140px;
+}
+.dailoan>img{
+	width: 100%;
+	height: 100%;
+}
+.paris{
+	width: 100%;
+	height: 140px;
+}
+.paris>img{
+	height: 100%;
+	width: 100%;
+}

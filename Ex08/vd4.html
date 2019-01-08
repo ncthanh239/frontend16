@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd4</title>
+</head>
+<body>
+	<select name="" id="wor" onchange="test(this)">
+		<option value="">--Chọn--</option>
+		<option value="1">Châu Á</option>
+		<option value="2">Châu Âu</option>
+		<option value="3">Châu Mỹ</option>
+	</select>
+
+	<select name="" id="dis">
+		<option value="">--Chọn--</option>
+	</select>
+
+
+		<script type="text/javascript">
+			function test(a){
+				// console.log(a.value);
+				var b = document.getElementById('dis');
+				if (a.value==1) {
+					b.innerHTML='<option value="1">Việt Nam</option><option value="2">Hàn Quốc</option><option value="3">Nhật Bản</option>';
+				}else if(a.value==2){
+					b.innerHTML='<option value="1">Anh</option><option value="2">Pháp</option><option value="3">Tây Ban Nha</option>';
+				}else if(a.value==3){
+					b.innerHTML='<option value="1">Mỹ</option><option value="2">Canada</option><option value="3">Brazil</option>';
+				}else{
+					b.innerHTML='<option value="">--Chọn--</option>';
+				}
+			}
+		</script>
+</body>
+</html>

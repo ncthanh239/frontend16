@@ -1,0 +1,499 @@
+*
+{
+	margin: auto;
+	padding: auto;
+	font-family: arial;
+}
+#top
+{
+	width: 100%;
+	height:70px;
+	background-color: #01837b;
+}
+#logo
+{
+	width: 30%;
+	height:100%;
+	float: left;
+}
+#logo>img
+{
+	display: table;
+}
+#search
+{
+	width: 30%;
+	height:100%;
+	float: left;
+}
+#search-box
+{
+	display: table;
+	width: 90%;
+	height:20px;
+	margin-top: 16px;
+}
+#search-text
+{
+	width: 80%;
+	float: left;
+	height: 100%;
+}
+#search-img
+{
+	float: left;
+	height: 100%;
+	width: 19%;
+}
+#search-text>input
+{
+	width: 100%;
+	height: 32px;
+	color:  #01a19a;
+	background-color: #016a62;
+}
+#hotline
+{
+	width: 13%;
+	height: 100%;
+	float: left;
+}
+#hotline-box
+{
+	width: 100%;
+	height: 60%;
+	display: table;
+	//border: 1px solid red;
+	margin-top: 14px;
+}
+#hotline-img
+{
+	width: 30%;
+	height: 41px;
+	//border: 1px solid blue;
+	float: left;
+}
+#hotline-img>img
+{
+	display: table;
+	margin-right: 0px; 
+}
+#hotline-number
+{
+	width: 59%;
+	height: 41px;
+	float:left;
+}
+#hotline-number>table
+{
+	color: #00aca0;
+	margin-left: 0px;
+}
+#tacpham
+{
+	width: 13%;
+	height: 100%;
+	float: left;
+}
+#tacpham-box
+{
+	width: 100%;
+	height: 60%;
+	display: table;
+	//border: 1px solid red;
+	margin-top: 14px;
+}
+#tacpham-img
+{
+	width: 30%;
+	height: 41px;
+	//border: 1px solid blue;
+	float: left;
+}
+#tacpham-img>img
+{
+	display: table;
+	margin-right: 0px; 
+}
+#tacpham-number
+{
+	width: 59%;
+	height: 41px;
+	float:left;
+}
+#tacpham-number>table
+{
+	color: #00aca0;
+	margin-left: 0px;
+}
+#dangnhap
+{
+	width: 13%;
+	height: 100%;
+	float: left;
+}
+#dangnhap-box
+{
+	width: 100%;
+	height: 60%;
+	display: table;
+	//border: 1px solid red;
+	margin-top: 14px;
+}
+#dangnhap-img
+{
+	width: 30%;
+	height: 41px;
+	//border: 1px solid blue;
+	float: left;
+}
+#dangnhap-img>img
+{
+	display: table;
+	margin-right: 0px; 
+}
+#dangnhap-number
+{
+	width: 59%;
+	height: 41px;
+	float:left;
+}
+#dangnhap-number>table
+{
+	color: #00aca0;
+	margin-left: 0px;
+}
+#menu
+{
+	//border: 1px solid black;
+	width: 100%;
+	height: 40px;
+	background-color: #01a9a1;
+}
+#menu-box
+{
+	//border: 1px solid black;
+	width: 80%;
+	height: 40px;
+	float: left;
+}
+#language
+{
+	//border: 1px solid black;
+	width: 20%;
+	height: 40px;
+	float: left;
+}
+#menu-box>ul
+{
+	list-style: none;
+	display: table;
+	height: 40px;
+}
+#menu-box>ul>li
+{
+	float: left;
+	//width: 100px;
+	margin: 0px 20px 0px 20px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+}
+#language-img
+{
+	float: left;
+	line-height: 40px;
+}
+#language-select
+{
+	float: left;
+	line-height: 40px;
+	color: #37fff5;
+}
+#gallery-text
+{
+	float: left;
+	line-height: 40px;
+}#gallery-img
+{
+	float: left;
+	line-height: 40px;
+
+}
+#trangchu
+{
+	//border: 1px solid black;
+	width: 100%;
+	height: 40px;
+	background-color: #e5f6f5;
+}
+#trangchu>ul
+{
+	list-style: none;
+	height: 40px;
+	float: right;
+}
+#trangchu>ul>li
+{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	color:#01837b;
+}
+#noidung
+{
+	height: 2275px;
+	width: 90%;
+	//border: 1px solid black;
+}
+#left
+{
+	height: 100%;
+	width: 65%;
+	//border: 1px solid black;
+	float:left;
+}
+#right
+{
+	height: 100%;
+	width: 32%;
+	float: right;
+	//border:1px solid black;
+}
+.anhto
+{
+	width: 100%;
+	height: 550px;
+	//border: 1px solid black;
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 39px;
+}
+.box-noidung
+{
+	width: 100%;
+	height: 550px;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+.anhto>img
+{
+	width: 100%;
+	height: 100%;
+	z-index: 90;
+	position: absolute;
+}
+.anhto>p
+{	position: absolute;
+	z-index: 100;
+	color: white;
+	margin: 10px 0px 10px 10px;
+}
+.noidungone>p
+{
+	background-image: url(../img/frame.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 40px;
+	//border: 1px solid black;
+	color: white;
+	padding-left: 37px;
+}
+.noidungone
+{
+	width: 100%;
+	height: 35px;
+	//border:1px solid black;
+	background-color: #01837b;
+}
+.duoi
+{
+	width: 100%;height: 90px;border: 1px solid black;
+}
+.ndsmall
+{
+	width: 90%;
+	height: 90px;
+	border-bottom: 1px dotted gray;
+	float:left;
+	margin-left: 20px;
+}
+.ndsmall>img
+{
+	float:left;
+	width: 9%;
+	padding-top:10px;
+}
+.ndsmall>p
+{
+	width: 90%;
+	height: 40px;
+	//border: 1px solid black;
+	color: gray;
+	//line-height: 60px;
+	//text-align: justify;
+	float: left;
+	padding-top:10px;
+}
+.time
+{
+	width: 100%;
+	height: 30px;
+	//border: 1px solid black;
+	line-height: 30px;
+	color: lightgray;
+	float: left;
+}
+.time>img
+{
+	line-height: 30px;
+}
+#left h1
+{
+	text-align: center;
+}
+#big-left
+{
+	width: 100%;
+	height: 2235px;
+	//border: 1px solid black;
+	background-color: #F2F2F2;
+}
+.nd-left
+{
+	width: 46%;
+	height: 400px;
+	//border: 1px solid black;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: white;
+}
+.nd-left>img
+{
+	width: 100%;
+	height:65%;
+	margin-bottom: 10px;
+}
+.nd-left>h3
+{
+	padding: 5px;
+	text-align: justify;
+	color: gray;
+}
+.nd-left>p
+{
+	padding: 5px;
+	text-align: justify;
+	color: darkgray;
+}
+#sotrang
+{
+	//border: 1px solid black;
+	width: 100%;
+	height: 135px;
+	float: left;
+}
+#sotrang>img
+{
+	display: table;
+	margin-top:35px;
+}
+#bottom
+{
+	width: 90%;
+	height: 250px;
+	//border: 1px solid black;
+}
+
+/*#hov:hover #left
+{
+	display: block;z-index: 100;
+}
+#hov
+{
+	position: relative;
+}
+#left
+{
+	position: absolute;
+	display: none;
+
+}*/
+.gthn
+{
+	width: 24%;
+	height: 100%;
+	//border: 1px solid black;
+	float: left;
+	text-align: left;
+}
+.duoi>ul
+{
+	list-style: none;
+	padding-left: 0px;
+}
+.tren>p
+{
+	color:#01837b;
+	margin:10px;
+}
+.duoi>p
+{
+	color:#01837b;
+	margin:10px;
+}
+.tren
+{
+	//border: 1px solid black;
+
+}
+.duoi
+{
+	//border: 1px solid black;
+	width: 100%;
+	height:200px;
+}
+#lol
+{
+	width: 100%;
+	height: 400px;
+	border: 1px solid black;
+	position: relative;
+	z-index: 90;
+}
+#loltop
+{
+	width: 100%;
+	height: 80%;
+	border: 1px solid black;
+	background-color: #01837b;
+}
+#loltop>img
+{
+	float: left;
+	margin-left: 200px;
+	margin-top:30px;
+	;
+}
+#lolbot
+{
+	width: 100%;
+	height: 19%;
+	border: 1px solid black;
+	background-color: #01a9a1;
+	display: table;
+	color: white;
+
+
+}
+#lolbotone
+{
+	line-height: 100px;
+	display: table;
+	
+}
+#up{
+	position: absolute;
+	z-index: 100;
+}

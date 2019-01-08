@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 1</title>
+	<link rel="stylesheet" type="text/css" href="Bai1.css">
+</head>
+<body>
+	
+		<div id="tieude">
+			<h3 id="tab1" class="err">1. Account</h3>
+			<h3 id="tab2">2. Profile</h3>
+			<h3 id="tab3">3. Warning</h3>
+			<h3 id="tab4">4. Finish</h3>
+		
+		</div>
+	<div id="form">
+		<div id="Aco">
+			<div>Account Information</div>
+			<p>User name*</p>
+			
+			<input type="text" name="" id="username">
+			<label id="err-name" class="err"></label>
+			<p>Password*</p>
+			
+			<input type="password" name="" id="pass"> 
+			<label id="err-pass" class="err"></label>
+			<p>Confirm Password*</p>
+			
+			<input type="password" name="" id="crepass">
+			<label id="err-crepass" class="err"></label>
+			<p>(*) Mandatory</p>
+		</div>
+
+		
+		<div id="Prof">
+			<div>Profile Information</div>
+			<p>First name*</p>
+			<input type="text" name="" id="fname">
+			<label id="err-fname" class="err"></label>
+			<p>Last name*</p>
+			<input type="text" name="" id="lname">
+			<label id="err-lname" class="err"></label>
+			<p>Email</p>
+			<input type="text" name="" id="email">
+			<label id="err-email" class="err"></label>
+			<p>Address</p>
+			<input type="text" name="" id="add">
+			<p>Age</p>
+			<input type="number" name="" id="age">
+			<label id="err-age" class="err"></label>
+			<p>(*) Mandatory</p>
+		</div>
+
+		
+		<div id="War">
+			<div>Bạn còn quá trẻ</div>
+			<p>Hãy rời khỏi đây :)</p>
+		</div>
+
+		
+		<div id="Fin">
+			<div>Terms and Conditions</div>
+			<input type="checkbox" name="" id="oncheck" value="1">
+			<div>I agree with the Terms and Conditions.</div>
+		</div>
+	</div>
+	<div id="controls">
+		<button id="prev">Previous</button>
+		<button id="next">Next</button>
+		<button id="fin">Finish</button>
+	</div>
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="Bai1.js"></script>
+</body>
+</html>

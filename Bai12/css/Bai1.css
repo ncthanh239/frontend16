@@ -1,0 +1,31 @@
+.first{
+		width: 950px;
+		border-top: 1px solid;
+		margin: 20px auto;
+	}
+		.anh{
+			border: 1px solid gray;
+			width: 130px;
+			float: left;
+			margin-left: 20px; 
+			text-align:center;
+			height: 160px;
+		}
+		.text{
+			color: orange;
+		}
+		#gia{
+			color: red;
+		}
+		.text:hover{
+			color: red;
+			text-decoration: none;
+		}
+		.anh:hover{
+			border: 1px solid red;
+			text-decoration: none;
+		}
+		#gia:hover{
+			color: blue;
+		}
+		

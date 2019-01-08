@@ -1,0 +1,70 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+
+
+@media (max-width: 480px) {
+	#top{
+	width: 100%;
+	height: 70px;
+	/*border: 1px solid black;*/
+	}
+	#logo{
+		display: table;
+		width: 120px;
+		height: 115px;
+	}
+	#logo>img{
+		width: 100%;
+		height: 100%;
+	}
+	#tieude{
+	width: 100%;
+	height: 230px;
+	/*border: 1px solid black;*/
+	background-color: #F4F6F8;
+	}
+	#tieude>h1{
+	display: table;
+	text-align: center;
+	padding-top: 50px;
+	color: #42B1A1;
+	}
+	#than{
+		width: 100%;
+		height: auto;
+		background-color: #F4F6F8;
+	}
+	.anh{
+		display: table;
+		width: 378px;
+		height: 200px;
+		
+	}
+	.anh>img{
+		width: 100%;
+		height: 100%;
+		border: 1px solid black;
+	}
+	.barone{
+		width: 100%;
+		height: 25px;
+		float: left;
+		border: 1px solid black;
+
+	}
+	.barone>h2{
+		float: left;
+	}
+	.barone>.icon i{
+		float: right;
+	}	
+
+	.clr{
+		clear: both;
+	}
+	.barone p{
+		margin-left: 18px;
+	}
+}

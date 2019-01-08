@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex2</title>
+</head>
+<body>
+	<script>
+		function SUM(){
+		do{
+			var n = prompt('Nhập n:');
+			if(n<=0){
+				alert("Bạn phải nhập n nguyên dương");
+			}
+		}while(n<=0);
+		var i=0;
+		var s=0;
+		do	
+		{
+			s=s+i;
+			i++;
+		}while(i<=n)
+		
+		alert("Tổng là: "+s);
+		}
+	</script>
+	<button onclick="SUM()">Start</button>
+</body>
+</html>

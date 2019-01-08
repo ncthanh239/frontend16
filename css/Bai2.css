@@ -1,0 +1,25 @@
+.pic{
+	float: left;
+	width: 170px;
+	margin-left: 20px;
+	height: 50px;
+}
+.kinhdoanh{
+	 float: left;
+}
+#text{
+	line-height: 40px;
+	
+}
+#text:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#text1:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#text2:hover{
+	color: blue;
+	text-decoration: underline;
+}

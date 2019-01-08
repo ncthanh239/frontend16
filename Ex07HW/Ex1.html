@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex1</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var dem=0;
+		function clicknow() {
+			document.write("Các số chia hết cho 3 hoặc 7 từ 1-100 là: ");
+			for (var i = 1; i <= 100; i++) {
+				if(i%3==0||i%7==0){
+					document.write(i+"\t");
+					dem++;
+				}
+			}
+				document.write("<br/>");
+				document.write("Các số đếm được là: "+dem);
+		}
+	</script>
+	<p>Các số chia hết cho 3 hoặc 7 từ 1->100 là:</p>
+	<button onclick="clicknow()">Kiểm tra</button>
+</body>
+</html>

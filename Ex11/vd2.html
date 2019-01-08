@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd2</title>
+</head>
+<body>
+	<input type="text" name="" value="qwert">
+
+	<select id="select" onchange="qwer()">
+		<option value="1">ABC</option>
+		<option value="2">XYZ</option>
+	</select>
+	<div id="asd">
+		
+	</div>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		function qwer(){
+			var select = $('select').val();
+			$('#asd').append('<p>'+ select + '</p>');
+		}
+	</script>
+</body>
+</html>

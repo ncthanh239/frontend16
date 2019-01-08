@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vd4</title>
+</head>
+<body>
+	<p class="text">
+		Abcxyz.
+	</p>
+
+	<p class="text">
+		Abcxyz.
+	</p>
+	<button onclick="clicknow()">
+		 Click now
+	</button>
+
+	<script type="text/javascript">
+		function clicknow() {
+			var a=document.getElementsByClassName('text');
+
+			for (var i = 0; i < a.length; i++) {
+				a[i].style.color="orange";
+				a[i].innerHTML="Zyxcba";
+				}
+			}
+	</script>
+</body>
+</html>

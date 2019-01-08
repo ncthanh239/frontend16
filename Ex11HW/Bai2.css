@@ -1,0 +1,39 @@
+#divone{
+	width: 300px;
+	height: 350px;
+	
+	/*background-color: black;*/
+	
+}
+#divone div a{
+	text-decoration: none;
+}
+ #divone div{
+ 	width: 300px;
+ 	height: 35px;
+ 	background-color: #3D3D3D;
+ 	border: 1px solid black;
+ 	line-height: 35px;
+ 	border-radius: 5px;
+ }
+ #divone div a{
+ 	color: white;
+ }
+#divone p{
+	margin: 0px;
+	color: white;
+	background-color: gray;
+}
+#divone div i{
+	width: 25px;
+	height: 25px;
+	background-color: #C2F048;
+	line-height: 25px;
+	text-align: center;
+}
+#divone div .fa-minus{
+	/*display: none;*/
+}
+/*p{
+	display: none;
+}*/
